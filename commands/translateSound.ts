@@ -43,7 +43,7 @@ async function transcribe() {
 
     // Wait for the file to get uploaded to the Cloud bucket before starting the transcription
     await new Promise((resolve:any, reject:any) => {
-      setTimeout(() => resolve(), 2000); // Wait for 5 seconds, adjust this time based on your file size and network speed
+      setTimeout(() => resolve(), 3000); // Wait for 5 seconds, adjust this time based on your file size and network speed
     });
 
     // Detects speech in the audio file
@@ -340,6 +340,7 @@ export default {
           components: [],
           ephemeral: true,
         });
+        await new Promise(resolve => setTimeout(resolve, 2000));
         const transcription = await transcribe();
         if (connection) {
           console.log("Successfully joined the voice channel!");
