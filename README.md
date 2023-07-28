@@ -23,3 +23,12 @@ A bot designed for the TIDB Future App Hackathon to solve both the issue of auto
 9. In the same terminal window, run ```nodemon```
 
 10. When running the code in discord, file has to be named p (To run the translation code, it is /record, to run the detection code it is /detect, to change translation language go to constants and change the language code based on Google's language code)
+
+#How to translate
+To record, invite the bot to a discord server. In that server, type in /record in the designated bot channel (if any). A popup will appear showing a record and stop button. Once the clip is finished, hit stop, and make sure the clip name is p, or else it will not work.
+
+#How to detect
+To detect, invite the bot to a discord server. IN that server, type in /detect in the designated bot channel. A popup will appear shoing a record and stop button. Once clip is finisihed hit stop, make sure the clip name is p or else it won't work. In addition to configure "bad words" go to constants.
+
+#Contact for help:
+If any further instructions are required, please send an email to jeffqiu2025@crescentschool.org
