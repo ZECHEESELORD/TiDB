@@ -177,12 +177,6 @@ export default {
   data: new SlashCommandBuilder()
     .setName("record")
     .setDescription("Records a voice clip")
-    .addStringOption((option) =>
-      option
-        .setName("clip")
-        .setDescription("Name of the clip")
-        .setRequired(true)
-    )
     .addBooleanOption((option) =>
       option
         .setName("group")
@@ -207,7 +201,7 @@ export default {
       });
     }
 
-    const clipName = interaction.options.getString("clip");
+    const clipName ="p";
 
     if (interaction.client.loadedFiles[clipName]) {
       return interaction.reply({
