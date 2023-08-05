@@ -203,13 +203,6 @@ export default {
 
     const clipName ="p";
 
-    if (interaction.client.loadedFiles[clipName]) {
-      return interaction.reply({
-        content: "There is already a recording with that name!",
-        ephemeral: true,
-      });
-    }
-
     const member = interaction.member;
     if (!(member instanceof GuildMember && member.voice.channel)) {
       return interaction.reply({
