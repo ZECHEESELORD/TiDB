@@ -204,7 +204,7 @@ export default {
       return interaction.reply({
         content: "There is already a recording with that name!",
         ephemeral: true,
-      });
+      });  
     }
 
     const member = interaction.member;
@@ -327,7 +327,7 @@ export default {
         collector.stop("Recording ended");
         delete interaction.client.ongoingRecordings[member.id];
         await i.update({
-          content: `👍 Recording completed! Your new clip is \`${clipName}\``,
+          content: `👍 Recording completed!`,
           components: [],
           ephemeral: true,
         });

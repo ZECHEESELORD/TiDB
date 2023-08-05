@@ -323,7 +323,7 @@ export default {
         collector.stop("Recording ended");
         delete interaction.client.ongoingRecordings[member.id];
         await i.update({
-          content: `👍 Recording completed! Your new clip is \`${clipName}\``,
+          content: `👍 Recording completed!`,
           components: [],
           ephemeral: true,
         });
