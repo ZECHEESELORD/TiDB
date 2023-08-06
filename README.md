@@ -8,7 +8,7 @@ A bot designed for the TIDB Future App Hackathon to solve both the issue of auto
 
 2. Copy the token in your computer's clipboard (Choose your app -> Settings -> Bot -> Build a Bot -> Copy Token)
 
-3. https://discordjs.guide/preparations/adding-your-bot-to-servers.html#creating-and-using-your-invite-link has a very good explaination on how to do this.
+3. https://discordjs.guide/preparations/adding-your-bot-to-servers.html#creating-and-using-your-invite-link has a very good explanation on how to do this.
 
 4. Clone the git repository -> Either cloning the repo in github or in VSCode or other editors.
 
@@ -23,15 +23,15 @@ A bot designed for the TIDB Future App Hackathon to solve both the issue of auto
 
 9. In the same terminal window, run `nodemon`
 
-10. When running the code in discord, file has to be named p (To run the translation code, it is /record, to run the detection code it is /detect, to change translation language go to constants and change the language code based on Google's language code)
+10. When running the code in discord (To run the translation code, it is /record, to run the detection code it is /detect, to change translation language go to constants and change the language code based on Google's language code)
 
 # How to translate
 
-To record, invite the bot to a discord server. In that server, type in /record in the designated bot channel (if any). A popup will appear showing a record and stop button. Once the clip is finished, hit stop, and make sure the clip name is p, or else it will not work.
+To record, invite the bot to a discord server. In that server, type in /record in the designated bot channel (if any). A popup will appear showing a record and stop button. Once the clip is finished, hit stop.
 
 # How to detect
 
-To detect, invite the bot to a discord server. IN that server, type in /detect in the designated bot channel. A popup will appear shoing a record and stop button. Once clip is finisihed hit stop, make sure the clip name is p or else it won't work. In addition to configure "bad words" go to constants.
+To detect, invite the bot to a discord server. IN that server, type in /detect in the designated bot channel. A popup will appear shoing a record and stop button. Once clip is finisihed hit stop. In addition to configure "bad words" go to constants.
 
 # Contact for help:
 
